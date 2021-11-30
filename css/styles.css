@@ -10169,9 +10169,23 @@ section.resume-section .resume-section-content {
   justify-content: flex-start;
 }
 
+.sf-certification-row {
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .certification {
   width: 15rem;
   flex-basis: 27%;
+  margin-right: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.sf-certification {
+  width: 15rem;
+  flex-basis: 23%;
   margin-right: 1.5rem !important;
   margin-bottom: 1.5rem !important;
 }
@@ -10190,4 +10204,8 @@ section.resume-section .resume-section-content {
 
 .group-experience {
   border-left: 2px solid #6c757d;
+}
+
+.more {
+  margin-bottom: 1em;
 }
